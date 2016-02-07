@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://friends.net/friendsDomain/2016/01" elementFormDefault="qualified" targetNamespace="http://friends.net/friendsDomain/2016/01" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:64519/v1/Friends.svc?xsd=xsd3" namespace="friends.net/friendsDomain/2016/01" />
+  <xs:complexType name="GetFriendsRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Count" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetFriendsRequest" nillable="true" type="tns:GetFriendsRequest" />
+  <xs:complexType name="GetFriendsResponse">
+    <xs:sequence>
+      <xs:element xmlns:q1="friends.net/friendsDomain/2016/01" minOccurs="0" name="Friends" nillable="true" type="q1:ArrayOfFriend" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetFriendsResponse" nillable="true" type="tns:GetFriendsResponse" />
+</xs:schema>

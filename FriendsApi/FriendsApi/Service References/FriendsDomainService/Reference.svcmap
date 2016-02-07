@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1fbb08b8-3f80-4f56-affc-80be5a492608" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:64519/v1/Friends.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Friends.xsd" MetadataType="Schema" ID="22b4c5b4-cb58-463a-93eb-4f2b6b087700" SourceId="1" SourceUrl="http://localhost:64519/v1/Friends.svc?xsd=xsd0" />
+    <MetadataFile FileName="Friends1.xsd" MetadataType="Schema" ID="9a1b285d-29e4-41d9-98e9-6cb8ac3d31a7" SourceId="1" SourceUrl="http://localhost:64519/v1/Friends.svc?xsd=xsd1" />
+    <MetadataFile FileName="Friends2.xsd" MetadataType="Schema" ID="4aebc380-fb7c-4e14-a755-fd01e06f399f" SourceId="1" SourceUrl="http://localhost:64519/v1/Friends.svc?xsd=xsd2" />
+    <MetadataFile FileName="Friends3.xsd" MetadataType="Schema" ID="516c0f27-0379-4064-8a35-31c07652e80a" SourceId="1" SourceUrl="http://localhost:64519/v1/Friends.svc?xsd=xsd3" />
+    <MetadataFile FileName="Friends.wsdl" MetadataType="Wsdl" ID="a5b2f593-ed3a-4a5d-ae31-17c954c7ff05" SourceId="1" SourceUrl="http://localhost:64519/v1/Friends.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="FriendsService.wsdl" MetadataType="Wsdl" ID="a25a9372-d1c6-458e-96b5-aac7aa6cf7fd" SourceId="1" SourceUrl="http://localhost:64519/v1/Friends.svc?wsdl" />
+    <MetadataFile FileName="Friends.disco" MetadataType="Disco" ID="faa39bb9-05e5-4310-afb4-15f3c518924a" SourceId="1" SourceUrl="http://localhost:64519/v1/Friends.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
